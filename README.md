@@ -19,19 +19,37 @@ This project demonstrates how to set up and run a phishing simulation campaign u
      
 
 2. **Access GoPhish Web UI**  
-   - Open browser at https://127.0.0.1:3333 (Your localhost IP) 
-   - Login with default credentials (`admin` / `gophish`) ** this would be reset **
+   - Open browser at https://127.0.0.1:3333 (This is the localhost IP) 
+   - Login with default credentials (`admin` / `gophish`) ** this would be reset immediately the default password is added **
 
 3. **Create Email Template**  
-   - Design a realistic phishing email that mimics common attacks
-   - In my case I used a reset your password template 
+   - Template
+     Envelope address - ITTeams@onmicros0ft.com
+
+     Subject: Reminder: Reset Password Soon!
+     Body:
+     Hi there,
+
+     Your password would be expiring in 3 days, use the link below to reset the password.
+
+     https://catalinatech.onmicros0ft.com/resetpassword/
+     
+     Password requirements
+     Must be 16 characters long
+     Must have an uppercase letter, lowercase letter, digits and special characters (!@£$%&*(),.?)
+
+     Technical Support Team
+     Catalina Technologies
+
+     
+   - In my case I used a reset your password template with an embedded microsoft login page URL 
   
        
-4. **Create Landing Page**  
-   - Clone a legitimate login page I cloned the microsoft login page. 
+5. **Create Landing Page**  
+   - Clone a legitimate login page I cloned the microsoft login page - https://login.microsoftonline.com/
    - Configure it in GoPhish as the destination for your phishing email
 
-5. **Create and Launch Campaign**  
+6. **Create and Launch Campaign**  
    - Add your target email addresses (emails used belong to me)
    - Schedule and send the phishing emails  
    - Monitor campaign progress through the GoPhish dashboard
