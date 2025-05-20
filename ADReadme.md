@@ -1,4 +1,4 @@
-# Active Directory Threat Hunting Lab with Netcat Reverse shell
+# Active Directory compromise and Threat Hunting Lab with Netcat Reverse shell
 
 ## Project Overview
 Threat hunting project to demonstrate Active Directory 
