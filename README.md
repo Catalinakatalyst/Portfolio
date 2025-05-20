@@ -27,6 +27,7 @@ This project demonstrates how to set up and run a phishing simulation campaign u
      Envelope address - ITTeams@onmicros0ft.com
 
      Subject: Reminder: Reset Password Soon!
+
      Body:
      Hi there,
 
