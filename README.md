@@ -61,12 +61,13 @@ This project demonstrates how to set up and run a phishing simulation campaign u
 - Provide targeted training or communication to improve awareness  
 - Create a simple one-page report summarizing campaign results and lessons learned
 
-## Key Takeaways
+## Key Takeaways and best practices
 
-- Regular phishing simulations help users recognize suspicious emails  
+- Regular phishing simulations help users recognize suspicious emails especially spoofed emails that look very legitimate
 - Awareness training reduces risk of real phishing attacks  
 - Monitoring and reporting provide actionable insights for security teams
+- Enforcing MFA for critical accounts 
 
 ---
 
-*This project showcases practical phishing simulation and user awareness skills, valuable for strengthening organizational security posture.*
+*This project is for educational purposes only, it showcases practical phishing simulation and user awareness skills, valuable for strengthening organizational security posture.*
