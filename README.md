@@ -24,7 +24,7 @@ This project demonstrates how to set up and run a phishing simulation campaign u
 
 3. **Create Email Template**  
    - Template
-     Envelope address - ITTeams@onmicros0ft.com
+     Envelope address - support@onmicrosoft.com
 
      Subject: Reminder: Reset Password Soon!
 
@@ -33,7 +33,7 @@ This project demonstrates how to set up and run a phishing simulation campaign u
 
      Your password would be expiring in 3 days, use the link below to reset the password.
 
-     https://catalinatech.onmicros0ft.com/resetpassword/
+     https://catalinatech.onmicrosoft.com/resetpassword/
      
      Password requirements
      Must be 16 characters long
